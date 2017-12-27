@@ -1,6 +1,6 @@
 'use strict';
 
-const errors = require('rduk-errors');
+const errors = require('@rduk/errors');
 const BaseProvider = require('../lib/base');
 
 describe('provider', function() {
