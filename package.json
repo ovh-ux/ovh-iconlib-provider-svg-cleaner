@@ -11,8 +11,7 @@
     "lint": "jshint lib/*.js",
     "pretest": "npm run lint",
     "test": "istanbul cover jasmine",
-    "posttest": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "prepublishOnly": "npm test"
+    "posttest": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "keywords": [
     "cleaner",
